@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/v1ktor/design-patterns-typescript/issues"
   },
-  "homepage": "https://github.com/v1ktor/design-patterns-typescript#readme"
+  "homepage": "https://github.com/v1ktor/design-patterns-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
