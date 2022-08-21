@@ -1,25 +1,25 @@
 import { dimension } from "./dimension";
 
 export interface ITable {
-    name: string;
-    height: number;
-    width: number;
-    depth: number;
+  name: string;
+  height: number;
+  width: number;
+  depth: number;
 
-    getDimension(): dimension;
+  getDimension(): dimension;
 }
 
 export abstract class Table implements ITable {
-    name = ''
-    height = 0
-    width = 0
-    depth = 0
+  name = ''
+  height = 0
+  width = 0
+  depth = 0
 
-    getDimension(): dimension {
-        return {
-            height: this.height,
-            width: this.width,
-            depth: this.depth
-        }
+  getDimension(): dimension {
+    return {
+      height: this.height,
+      width: this.width,
+      depth: this.depth
     }
+  }
 }
